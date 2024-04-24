@@ -206,7 +206,7 @@ footer{
     /* article */
     .match-details{
         flex-direction: column;
-        margin: 0 50px;
+        margin: 0 50px 70px 50px;
     }
     .buttons{
         flex-direction: row;
