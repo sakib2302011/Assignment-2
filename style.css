@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 40px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+
+/* --------- Main Section------------ */
+/* banner text */
+.banner{
+    background-color: #161616;
+    margin: 50px 140px 130px 140px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+    padding-left: 106px;
+    padding-right: 79px;
+}
+.banner-text{
+    color: #FFFFFF;
+}
+.banner-text h1{
+    margin: 0;
+}
+.banner-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.watch-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    width: 150px;
+    
+    
+}
+.watch-btn p{
+    font-size: 20px;
+    margin: 0;
+}
+
+/* ---------- Match Details-------------- */
+/* buttons */
+.matche-details{
+    margin: 0 140px;
+}
+.buttons{
+    background-color: #161616;
+    width: 282px;
+    height: 252px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.button{
+    padding: 17px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.button p{
+    font-size: 20px;
+    margin: 0;
+}
+.white{
+    background-color: #FFFFFF;
+    color: #161616;
+}
+.red{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+/* blogs */
+.match-details{
+    margin: 0 140px 130px 140px;
+    display: flex;
+    column-gap: 20px;
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 312px);
+    gap: 24px;
+}
+.blog{
+    font-size: 16px;
+    width: 312px;
+    height: 362px;
+    border: 1px solid #16161671;
+    border-radius: 10px;
+    /* padding: 0 20px 20px 20px; */
+}
+.blog-article{
+    margin: 0 20px 20px 20px;
+}
+.Transfer{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.blog h5{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.border{
+    padding: 5px 15px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    height: 26px;
+}
+.social p{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0;
+}
+
+/* ----------Footer------------ */
+footer{
+    background-color: #161616;
+    padding:113.5px 140px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.foot-text h3{
+    margin: 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff13;
+    margin-bottom: 50px;
+}
+.company-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 251px;
+}
