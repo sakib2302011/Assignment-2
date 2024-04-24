@@ -166,6 +166,9 @@ footer{
     h1{
         font-size: 40px;
     }
+    h5{
+        font-size: 20px;
+    }
     p{
         font-size: 16px;
     }
@@ -232,6 +235,9 @@ footer{
         width: 357px;
         height: 414px;
     }
+    .blog-article p{
+        font-size: 18px;
+    }
     .blog-img{
         width: 357px;
         height: 200px;
@@ -245,4 +251,54 @@ footer{
         column-gap: 70px;
         justify-content: center;
     }
+}
+
+
+/* ----------------Mobile View----------------------- */
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 18.77px;
+    }
+    .blog-article p{
+        font-size: 17.18px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    /* banner */
+    .banner{
+        margin: 44px 20px 25px 20px;
+        padding: 28px 38px 0 38px;
+        flex-direction: column;
+    }
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .short-text{
+        width: 258px;
+        height: 45px;
+        white-space: wrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .watch-btn{
+        padding: 8px 12px;
+    }
+    .banner-img img{
+        width: 233px;
+        height: 245px;
+        position: relative;
+        padding-left: 20px;
+    }
+    /* match details */
 }
