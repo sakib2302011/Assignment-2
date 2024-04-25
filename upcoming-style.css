@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+
+/* --------- Main Section------------ */
+/* banner text */
+.banner{
+    background-color: #161616;
+    margin: 50px 140px 130px 140px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+    padding-left: 106px;
+    padding-right: 79px;
+}
+.banner-text{
+    color: #FFFFFF;
+}
+.banner-text h1{
+    margin: 0;
+}
+.short-text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.watch-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    width: 150px; 
+}
+.watch-btn p{
+    font-size: 20px;
+    margin: 0;
+}
+.banner-img img{
+    width: 581px; 
+    height: 613px;
+}
+/* ---------- Match Details-------------- */
+/* buttons */
+.match-details{
+    margin: 0 140px 130px 140px;
+    display: flex;
+    column-gap: 20px;
+
+}
+.buttons{
+    background-color: #161616;
+    width: 282px;
+    height: 252px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.button{
+    padding: 17px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+.button p{
+    font-size: 20px;
+    margin: 0;
+}
+.button p a{
+    text-decoration: none;
+}
+.white{
+    background-color: #FFFFFF;
+}
+.white a{
+    color: #161616;
+}
+.red{
+    background-color: #DD0000;
+}
+.red a{
+    color: #FFFFFF;
+}
+/* blogs */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 312px);
+    gap: 24px;
+}
+.blog{
+    padding: 53px 30px;
+    border: 1px solid #16161671;
+    border-radius: 10px;
+    height: 118px;
+    
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+}
+.countryDetails{
+    text-align: center;
+}
+.countryDetails h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.countryDetails p{
+    margin: 0;
+}
+/* ----------Footer------------ */
+footer{
+    background-color: #161616;
+    padding:113.5px 140px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.foot-text h3{
+    margin: 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff13;
+    margin-bottom: 50px;
+}
+.company-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 251px;
+}
+
+/* ---------Tablet View----------- */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    /* banner */
+    .banner{
+        margin: 50px auto 70px auto;
+        width: 734px;
+        height: 337px;
+        padding: 50px 17px 0 76px;
+        
+    }
+    .banner-text{
+        width: 316px;
+        height: 276px;
+        margin-bottom: 60px;
+    }
+    .banner-text h1{
+        margin: 0;
+    }
+    .short-text{
+        height: 48px;
+        margin: 10px 0 10px 0;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .watch-btn{
+        padding: 5px 10px; 
+    }
+    .watch-btn p{
+        padding: 0;
+        border: 0;
+    }
+    .banner-img img{
+        width: 323px; 
+        height: 340px;
+    }
+    /* article */
+    .match-details{
+        flex-direction: column;
+        margin: 0 50px 70px 50px;
+    }
+    .buttons{
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .button{
+        padding: 17px 0px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid #1616161a;
+        width: 230px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 357px);
+        justify-content: center;
+    }
+    
+    
+}
+
+
+/* ----------------Mobile View----------------------- */
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 18.77px;
+    }
+    .blog-article p{
+        font-size: 17.18px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    /* banner */
+    .banner{
+        margin: 44px 20px 25px 20px;
+        padding: 28px 38px 0 38px;
+        flex-direction: column;
+        row-gap: 21px;
+    }
+    .banner-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .short-text{
+        width: 258px;
+        height: 45px;
+        white-space: wrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .watch-btn{
+        padding: 8px 12px;
+    }
+    .banner-img img{
+        width: 233px;
+        height: 245px;
+        position: relative;
+        padding-left: 20px;
+    }
+    /* match details */
+
+    /* button */
+    .match-details{
+        flex-direction: column;
+        margin: 0 50px 25px 50px;
+    }
+    .buttons{
+        margin: 0 auto 24px auto;
+        background-color: #FFFFFF;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 16px;
+        
+    }
+    .button{
+        padding: 9px 18px;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid #1616161a;
+    }
+    .white{
+        width: 92px;
+    }
+    /* blogs */
+    .blogs{
+        grid-template-columns: repeat(1, 335px);
+        justify-content: center;
+    }
+    
+}
