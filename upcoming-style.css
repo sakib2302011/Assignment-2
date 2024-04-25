@@ -218,7 +218,15 @@ footer{
         grid-template-columns: repeat(2, 357px);
         justify-content: center;
     }
-    
+    footer{
+        padding: 70px 50px 55px 50px;
+    }
+    .company-info{
+        padding: 0 46px;
+        flex-wrap: wrap;
+        column-gap: 70px;
+        justify-content: center;
+    }
     
 }
 
@@ -284,7 +292,6 @@ footer{
         flex-direction: column;
         align-items: center;
         row-gap: 16px;
-        
     }
     .button{
         padding: 9px 18px;
@@ -300,5 +307,20 @@ footer{
         grid-template-columns: repeat(1, 335px);
         justify-content: center;
     }
-    
+    footer{
+        padding: 24px 20px 7px 20px;
+    }
+    footer p{
+        margin: 0;
+        line-height: 50px;
+    }
+    .foot-text h3{
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+    }
+    .company-info{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
 }
